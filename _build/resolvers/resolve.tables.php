@@ -15,8 +15,8 @@ if ($object->xpdo) {
 				'sxSubscriber',
 				'sxQueue',
 			);
-			foreach ($objects as $tmp) {
-				$manager->createObjectContainer($tmp);
+			foreach ($objects as $object) {
+				$manager->createObjectContainer($object);
 			}
 			break;
 

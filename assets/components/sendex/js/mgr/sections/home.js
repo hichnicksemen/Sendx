@@ -1,3 +1,7 @@
+Ext.onReady(function() {
+	MODx.load({ xtype: 'sendex-page-home'});
+});
+
 Sendex.page.Home = function(config) {
 	config = config || {};
 	Ext.applyIf(config,{
